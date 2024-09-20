@@ -1,0 +1,29 @@
+.product-block {
+  &__title {
+    text-align: center;
+  }
+
+  &__grid {
+    display: grid;
+    gap: 2rem 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
+
+  &__item {
+    text-align: center;
+
+    &-image {
+      height: auto;
+      max-width: 100%;
+    }
+
+    &-name {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    &-price {
+      font-size: 0.9rem;
+    }
+  }
+}

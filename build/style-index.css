@@ -1,0 +1,1 @@
+.product-block__title{text-align:center}.product-block__grid{display:grid;gap:2rem 1rem;grid-template-columns:repeat(auto-fit,minmax(160px,1fr))}.product-block__item{text-align:center}.product-block__item-image{height:auto;max-width:100%}.product-block__item-name{font-size:1.2rem;font-weight:700}.product-block__item-price{font-size:.9rem}

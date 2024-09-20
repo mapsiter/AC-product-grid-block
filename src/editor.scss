@@ -1,0 +1,12 @@
+.product-block {
+  &__grid {
+    gap: 1rem;
+
+  }
+
+  &__item {
+    background: #fff;
+    border-radius: 8px;
+    padding: 3rem 1rem;
+  }
+}
